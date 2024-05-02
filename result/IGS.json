@@ -1,0 +1,126 @@
+{
+    "name": "IGS.node",
+    "type": "node",
+    "children": [
+        {
+            "Prefab_01": {
+                "name": "Prefab_01.prefab",
+                "type": "prefab",
+                "position": [
+                    206,
+                    313
+                ],
+                "children": [
+                    {
+                        "name": "../result/IGS/IGS_Prefab_01_Image1.jpg",
+                        "type": "sprite",
+                        "position": [
+                            140,
+                            98
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_01_Image2.jpg",
+                        "type": "sprite",
+                        "position": [
+                            124,
+                            175
+                        ]
+                    }
+                ]
+            },
+            "Prefab_02": {
+                "name": "Prefab_02.prefab",
+                "type": "prefab",
+                "position": [
+                    336,
+                    42
+                ]
+            },
+            "Prefab_03": {
+                "name": "Prefab_03.prefab",
+                "type": "prefab",
+                "position": [
+                    957,
+                    39
+                ],
+                "children": [
+                    {
+                        "name": "../result/IGS/IGS_Prefab_03_Image5.jpg",
+                        "type": "sprite",
+                        "position": [
+                            760,
+                            6
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_03_Image6.jpg",
+                        "type": "sprite",
+                        "position": [
+                            962,
+                            6
+                        ]
+                    }
+                ]
+            },
+            "Prefab_04": {
+                "name": "Prefab_04.prefab",
+                "type": "prefab",
+                "position": [
+                    470,
+                    331
+                ],
+                "children": [
+                    {
+                        "name": "../result/IGS/IGS_Prefab_04_Image8.jpg",
+                        "type": "sprite",
+                        "position": [
+                            322,
+                            124
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_04_Image9.jpg",
+                        "type": "sprite",
+                        "position": [
+                            350,
+                            197
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_04_Image10.jpg",
+                        "type": "sprite",
+                        "position": [
+                            436,
+                            197
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_04_Image11.jpg",
+                        "type": "sprite",
+                        "position": [
+                            515,
+                            198
+                        ]
+                    },
+                    {
+                        "name": "../result/IGS/IGS_Prefab_04_Image12.jpg",
+                        "type": "sprite",
+                        "position": [
+                            327,
+                            357
+                        ]
+                    }
+                ]
+            },
+            "Prefab_05": {
+                "name": "Prefab_05.prefab",
+                "type": "prefab",
+                "position": [
+                    894,
+                    331
+                ]
+            }
+        }
+    ]
+}

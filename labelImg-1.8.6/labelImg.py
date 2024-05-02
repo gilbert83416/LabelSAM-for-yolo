@@ -13,6 +13,8 @@ import webbrowser as wb
 
 from functools import partial
 from collections import defaultdict
+from create_prefab import create_json_cropImg
+
 
 try:
     from PyQt5.QtGui import *
@@ -1629,10 +1631,23 @@ def get_main_app(argv=[]):
     return app, win
 
 
+
+
+
 def main():
     """construct main app and run it"""
     app, _win = get_main_app(sys.argv)
     return app.exec_()
 
+
+
+imgDir = r'../images/train/'  # 待标注的图片路径
+labelDir = r'../labels/train/'  # 存放标注txt的路径,同labelimg的save dir
+cropDir = r'../result/'  # 存放裁剪完图片的目录
+
+
 if __name__ == '__main__':
-    sys.exit(main())
+    result = main()
+    create_json_cropImg(imgDir, labelDir, cropDir)
+    sys.exit(result)
+    
